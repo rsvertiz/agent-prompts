@@ -1,0 +1,59 @@
+{
+  "_instructions": "Fill in all fields for your project. Paste the completed context into the PROJECT CONTEXT block of each agent prompt. Delete this _instructions field before use.",
+
+  "project": {
+    "name": "your-project-name",
+    "description": "One sentence describing what the app does and who it is for.",
+    "github": "yourusername/your-repo-name",
+    "status": "active | maintenance | greenfield"
+  },
+
+  "stack": {
+    "framework": "e.g. .NET MAUI 9, ASP.NET Core, Blazor",
+    "language": "e.g. C# 13",
+    "database": "e.g. SQLite, SQL Server, PostgreSQL",
+    "external_apis": ["e.g. Plaid API", "e.g. Anthropic Claude API"],
+    "key_libraries": ["e.g. CommunityToolkit.Mvvm", "e.g. xUnit", "e.g. Moq"],
+    "platforms": ["e.g. Android", "e.g. iOS", "e.g. Windows"]
+  },
+
+  "architecture": {
+    "pattern": "e.g. MVVM, Clean Architecture, MVC",
+    "folder_structure": {
+      "models": "/Models",
+      "services": "/Services",
+      "viewmodels": "/ViewModels",
+      "views": "/Views"
+    },
+    "di_entry_point": "e.g. MauiProgram.cs, Program.cs",
+    "notes": "Any architectural decisions or constraints worth noting."
+  },
+
+  "developer": {
+    "experience_level": "e.g. Senior, 10+ years .NET",
+    "tools": ["e.g. Visual Studio 2026", "e.g. GitBash"],
+    "preferences": "e.g. prefers incremental changes over rewrites"
+  },
+
+  "security": {
+    "sensitive_surfaces": ["e.g. API keys", "e.g. user financial data", "e.g. OAuth tokens"],
+    "compliance_requirements": "e.g. App Store guidelines, OWASP Mobile Top 10",
+    "notes": "Any known security constraints or previous findings."
+  },
+
+  "testing": {
+    "framework": "e.g. xUnit",
+    "mocking_library": "e.g. Moq",
+    "coverage_priority": ["e.g. ViewModels", "e.g. Services", "e.g. API integrations"]
+  },
+
+  "current_features": [
+    "List existing app sections or features so agents understand what already exists."
+  ],
+
+  "known_issues": [
+    "List any known bugs, tech debt, or areas flagged for improvement."
+  ],
+
+  "agent_notes": "Any specific instructions or constraints for agents working on this project."
+}
